@@ -2,14 +2,14 @@
 
 // titulo.innerHTML = 'juego del numero secreto'
 
-let numeroSecreto = generarNumeroSecreto();
-let intentos = 1
+let intentos = 1;
 let listaNumerosSorteados = [];
-let numeroMaximo = 10
+let numeroMaximo = 10;
 
+let numeroSecreto = generarNumeroSecreto(); // Llamada a generarNumeroSecreto() después de asignar un valor a numeroMaximo
 
 let instruccion = document.querySelector('p');
-instruccion.innerHTML = 'escoje un numero del 1 al 10'
+instruccion.innerHTML = 'escoje un numero del 1 al 10';
 
 function asignarTextElemento(elemento, texto) {
 
